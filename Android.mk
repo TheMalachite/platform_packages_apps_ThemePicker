@@ -23,6 +23,7 @@ WALLPAPER_PATH := ../WallpaperPicker2
 #
 include $(CLEAR_VARS)
 LOCAL_USE_AAPT2 := true
+LOCAL_USES_LIBRARIES := org.apache.http.legacy
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_ANDROID_LIBRARIES := WallpaperPicker2CommonDepsLib
